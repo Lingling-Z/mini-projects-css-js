@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #333;
+  color: #222;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.container {
+  background-color: #fafafa;
+  padding: 1.5em;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.container.show-nav {
+  transform: rotate(-20deg);
+  transform-origin: top left;
+  transition: transform 400ms linear;
+}
+
+.container.show-nav .circle {
+  transform: rotate(-90deg);
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: #ff7979;
+  position: fixed;
+  top: -100px;
+  left: -100px;
+  border-radius: 50%;
+}
+
+.circle button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  background-color: transparent;
+  font-size: 1.2rem;
+  border: 0;
+  color: white;
+  cursor: pointer;
+}
+
+.circle button#open {
+  left: 60%;
+}
+
+.circle button#close {
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+.content {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.content img {
+  max-width: 100%;
+}
+
+.content h1 {
+  margin-bottom: 0;
+}
+
+.content small {
+  color: #555;
+  font-style: italic;
+}
+
+.content p {
+  color: #333;
+  line-height: 1.5;
+}
+
+.container.show-nav + nav li {
+  transform: translateX(0);
+  transition-delay: 400ms;
+}
+
+nav ul {
+  position: fixed;
+  bottom: 2em;
+  left: 0;
+  color: white;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-top: 1em;
+  transform: translateX(-100%);
+  transition: transform 400ms ease-in;
+}
+
+/* to make the list display in an angle */
+nav ul li + li {
+  margin-left: 15px;
+  transform: translateX(-150%);
+}
+
+nav ul li + li + li {
+  margin-left: 30px;
+  transform: translateX(-200%);
+}
+
+nav ul li i {
+  margin-right: 5px;
+}
