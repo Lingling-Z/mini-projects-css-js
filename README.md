@@ -1,6 +1,6 @@
 ## mini projects using HTML, CSS and Javascript
 
-| Project             | Live Demo   |
+| :Project             | Live Demo   |
 | ------------------- | ----------- |
 | Expanding Cards     | [Live Demo](https://expanding-cards-momcoder.netlify.app)       |
 | Progress Steps      | [Live Demo](https://progress-steps-momcoder.netlify.app)        |
