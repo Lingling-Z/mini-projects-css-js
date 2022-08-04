@@ -6,4 +6,5 @@
 | Progress Steps      | [Live Demo](https://progress-steps-momcoder.netlify.app)        |
 | Rotating Navigation | [Live Demo](https://momcoder-rotating-nav.netlify.app)          |
 | Blurry Loading      | [Live Demo](https://blurry-loading-momcoder.netlify.app/)       |
-| Scroll Animation    | [Live Demo](https://scroll-animation-momcoder.netlify.app/)       |
+| Scroll Animation    | [Live Demo](https://scroll-animation-momcoder.netlify.app/)     |
+| Card - Flexbox      | [Live Demo](https://card-flexbox.netlify.app/)                  |
