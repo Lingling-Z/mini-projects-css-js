@@ -8,5 +8,6 @@
 | Blurry Loading      | [Live Demo](https://blurry-loading-momcoder.netlify.app/)       |
 | Scroll Animation    | [Live Demo](https://scroll-animation-momcoder.netlify.app/)     |
 | Card - Flexbox      | [Live Demo](https://card-flexbox.netlify.app/)                  |
-| Modal               | [Live Demo](https://modal-contact.netlify.app/)                  |
+| Modal               | [Live Demo](https://modal-contact.netlify.app/)                 |
+| Search Names        | [Live Demo](https://search-names-widget.netlify.app/)           |
 
