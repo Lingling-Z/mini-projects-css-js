@@ -2,6 +2,7 @@
 
 | Project             | Live Demo   |
 | :------------------ | ----------- |
+| Carousel - Movies   | [Live Demo](https://carousel-movie.netlify.app/)       |
 | Expanding Cards     | [Live Demo](https://expanding-cards-momcoder.netlify.app)       |
 | Progress Steps      | [Live Demo](https://progress-steps-momcoder.netlify.app)        |
 | Rotating Navigation | [Live Demo](https://momcoder-rotating-nav.netlify.app)          |
